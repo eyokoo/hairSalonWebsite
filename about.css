@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@600&family=Roboto&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.top-wrapper{
+	max-width:auto;
+	margin:auto;
+	padding:20px;
+}
+.nav{
+  display:flex;
+}
+.nav ul {
+	margin:0 3rem 0 0;
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex:1 0 0%;
+  justify-content:space-evenly;
+  font-size: 1.3em;
+}
+a{
+  text-decoration: none;
+  color: #383D59;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  display:flex;
+  height:100%;
+}
+
+.ceoPic, .content{
+  display:flex;
+  align-items:center;
+  height:calc(100vh - 64.44px);
+
+}
+.ceoPic img{
+height:100%;
+}
+
+.content{
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+h1{
+margin-bottom:35px;
+font-size: 4em;
+font-family: 'Pacifico', cursive;
+}
+
+p{
+  line-height: 3;
+  font-family: 'Quicksand', sans-serif;
+
+}

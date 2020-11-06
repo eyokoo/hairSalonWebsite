@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@600&family=Roboto&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.top-wrapper{
+	max-width:auto;
+	margin:auto;
+	padding:20px;
+}
+.nav{
+  display:flex;
+}
+.nav ul {
+	margin:0 3rem 0 0;
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex:1 0 0%;
+  justify-content:space-evenly;
+  font-size: 1.3em;
+}
+a{
+  text-decoration: none;
+  color: #383D59;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background:url("contactPic.jpeg");
+  background-size: cover;
+  height:auto;
+  opacity:0.9;
+}
+
+.container{
+  width:800px;
+  height:650px;
+  background:#fff;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding:40px;
+  box-shadow: 0 0 20px rgba(72,98,85,0.6);
+}
+
+.container h1{
+  text-align:center;
+  font-size:45px;
+  margin-bottom:20px;
+  color:black;
+  letter-spacing: 1px;
+  font-family: 'Pacifico', cursive;
+}
+
+.input,.area{
+  width: 100%;
+  padding:20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border:2px solid rgba(0, 0, 0, 0.301);
+  font-size: 14px;
+  border-radius:5px;
+}
+
+.login .input{
+  width: 49.7%;
+
+}
+
+.msg .area{
+  height:200px;
+}
+
+button{
+  background-color: rgba(128, 0, 0, 0.829);
+  border:none;
+  padding:15px 32px;
+  color:white;
+  text-align: center;
+  display:inline-block;
+  font-size: 17px;
+  outline-color:lightblue;
+}
+
+.subject .text, .msg .area{
+  font-family: 'Roboto', sans-serif;
+}
+
