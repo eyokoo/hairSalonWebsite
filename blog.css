@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@600&family=Roboto&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:url("salon-bw.jpeg");
+  background-size: cover;
+  height:auto;
+}
+
+.top-wrapper{
+	max-width:auto;
+	margin:auto;
+	padding:20px;
+}
+.nav{
+  display:flex;
+}
+.nav ul {
+	margin:0 3rem 0 0;
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex:1 0 0%;
+  justify-content:space-evenly;
+  font-size: 1.3em;
+}
+a{
+  text-decoration: none;
+  color: #383D59;
+  font-family: 'Roboto', sans-serif;
+}
+
+.selected a{
+  color:darkorchid;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-row-gap:25px;
+  padding-top: 50px;
+  padding:50px 250px;
+}
+
+.figure img{
+  float:right;
+  padding-right:25px;
+}
+
+.content{
+  padding-top: 50px;
+  height:auto;
+  background-color: rgba(255, 255, 255, 0.781);
+}
+p{
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+@media (max-width:400px){
+  .top-wrapper{
+    padding:10px 0;
+  }
+  .nav ul{
+    margin:0;
+  }
+
+  .container{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+  }
+  .figure img{
+    float: left;
+  }
+  h1{
+    font-size: 25px;
+  }
+  p{
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .content{
+    padding:10px
+  }
+}

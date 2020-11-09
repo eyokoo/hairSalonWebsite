@@ -28,6 +28,10 @@ a{
   font-family: 'Roboto', sans-serif;
 }
 
+.selected a{
+  color:darkorchid;
+}
+
 body{
   background:url("contactPic.jpeg");
   background-size: cover;
@@ -88,3 +92,22 @@ button{
   font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width:600px){
+  .top-wrapper{
+    padding:10px;
+
+  }
+  .nav ul{
+  justify-content: space-between;
+  margin:0;
+  }
+
+  .container{
+    width:400px;
+    padding:10px;
+  }
+  
+  .input{
+    margin-bottom:10px;
+  }
+}

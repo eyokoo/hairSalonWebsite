@@ -28,6 +28,10 @@ a{
   font-family: 'Roboto', sans-serif;
 }
 
+.selected a{
+  color:darkorchid;
+}
+
 .container{
   display:flex;
   height:100%;
@@ -58,5 +62,38 @@ font-family: 'Pacifico', cursive;
 p{
   line-height: 3;
   font-family: 'Quicksand', sans-serif;
+}
+
+@media (max-width:600px){
+
+.container{
+  display:flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 30px;
+}
+p{
+  font-size:15px;
+  line-height: 2;
+  text-align: center;
+}
+.content{
+  padding-right: 50px;
+  padding-left: 50px;
+  display:flex;
+  align-content: center;
+  justify-content: start;
+}
+
+.top-wrapper{
+    padding:10px;
+  
+}
+.nav ul{
+  justify-content: space-between;
+  margin:0;
+}
 
 }

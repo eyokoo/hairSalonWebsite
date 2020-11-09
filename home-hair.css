@@ -37,6 +37,10 @@ a{
   color: #383D59;
   font-family: 'Roboto', sans-serif;
 }
+.selected a{
+  color:darkorchid;
+}
+
 .content{
   margin-top: 90px;
   margin-left: 100px;
@@ -65,4 +69,24 @@ input{
   border:none;
   font-size: 17px;
   font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:600px){
+  .top-wrapper{
+    padding:10px;
+
+  }
+  .nav ul{
+  justify-content: space-between;
+  margin:0;
+  }
+  
+  .content{
+    padding-top: 50px;
+    padding-left: 10px;
+    margin:0;
+  }
+  h1{
+    font-size: 3.5em;
+  }
 }
